@@ -21,6 +21,6 @@ class PortraitSerializer(serializers.ModelSerializer):
         instance.when = validated_data.get('when', instance.when)
         instance.what = validated_data.get('what', instance.what)
         instance.credits = validated_data.get('credits', instance.credits)
-        instance.description = validated_data.description('what', instance.description)
+        instance.description = validated_data.description('description', instance.description)
         instance.save()
         return instance
