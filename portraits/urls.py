@@ -1,11 +1,11 @@
 from django.conf.urls import url, include
 from rest_framework.urlpatterns import format_suffix_patterns
-from snippets import views
+from portraits import views
 from django.conf.urls.static import static
 
 urlpatterns = [
-    url(r'$', views.SnippetList.as_view()),
-    url(r'(?P<pk>[0-9]+)/$', views.SnippetDetail.as_view()),
+    url(r'^$', views.PortraitList.as_view()),
+    url(r'^(?P<pk>[0-9]+)/$', views.PortraitDetail.as_view()),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

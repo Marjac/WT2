@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'snippets.apps.SnippetsConfig',
+    'comments.apps.CommentsConfig',
+	'portraits.apps.PortraitsConfig',
     'corsheaders',
 ]
 
