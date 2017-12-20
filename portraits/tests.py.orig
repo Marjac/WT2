@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-from django.test import TestCase
-
-# Create your tests here.
-=======
-from django.test import TestCase
-
-# Create your tests here.
->>>>>>> f9f22e6e7d01f7a7678cb7441f12f68e8ac1e87b
