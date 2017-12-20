@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+from django.apps import AppConfig
+
+
+class CommentsConfig(AppConfig):
+    name = 'comments'
+=======
+from django.apps import AppConfig
+
+
+class CommentsConfig(AppConfig):
+    name = 'comments'
+>>>>>>> f9f22e6e7d01f7a7678cb7441f12f68e8ac1e87b
